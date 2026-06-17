@@ -123,9 +123,11 @@ to sit down.
 
 ---
 
-The table is open and verifiable:
-
-- Contract: [`0x3DFAE17DAC9cA83d6e070E240E3128572D721D4F`](https://explorer-bradbury.genlayer.com/address/0x3DFAE17DAC9cA83d6e070E240E3128572D721D4F)
-- Deploy transaction: [`0x004a86b92f887be5e6a0ac43cde917a5a5f26b2723af1d1fcddcf1634010c9b9`](https://explorer-bradbury.genlayer.com/tx/0x004a86b92f887be5e6a0ac43cde917a5a5f26b2723af1d1fcddcf1634010c9b9)
-
-The full backend is `contracts/contract.py`.
+The house keeps nothing hidden but your role, and that only until the hand
+settles. The table itself, every rule above written into it, lives on-chain at
+address `0x3DFAE17DAC9cA83d6e070E240E3128572D721D4F`, and the hand that opened
+the house was dealt in transaction
+`0x004a86b92f887be5e6a0ac43cde917a5a5f26b2723af1d1fcddcf1634010c9b9`. Both are
+open to read on the [Bradbury explorer](https://explorer-bradbury.genlayer.com/address/0x3DFAE17DAC9cA83d6e070E240E3128572D721D4F),
+and the rules as the contract truly enforces them, not as told here, are in
+`contracts/contract.py`.
